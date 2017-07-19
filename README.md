@@ -1,4 +1,5 @@
 # Factory Design Pattern Example
+![alt text](https://raw.githubusercontent.com/rlawton2/projectname/branch/path/to/Banner1.png)
 ## Description
 This NetBeans project demonstates the use of the factory design pattern and some class hierarchy.
 
