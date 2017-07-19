@@ -1,6 +1,9 @@
 # Factory Design Example
 ## Description
-This program demonstates the use of the factory software design.
+This NetBeans project demonstates the use of the factory design pattern.
 
-## Project
-The project was created in NetBeans
+## Explaination
+The factory design is used to create objects at runtime. 
+
+## About Me
+For more information about me viset my LinkedIn profile at (https://www.linkedin.com/in/ronlawton)
