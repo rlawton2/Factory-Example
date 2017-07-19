@@ -36,7 +36,9 @@ public class FactoryDemo {
         // reference type
          System.out.println(person4.toString() + "\nCustomer Number: " +
                  ((Client)person4).getClientNum());
-         
+         // Test overidden methods
+         person1.action();           // Client object
+         person3.action();           // Employee object
          // Could also change the reference type after the object has been
          // created.  
          Client client1 = person4 instanceof Client ? (Client)person4 : null;

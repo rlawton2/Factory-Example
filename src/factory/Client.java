@@ -18,6 +18,11 @@ public class Client extends Person{
         numTracker++;
     }
     
+    @Override
+    public void action() {
+        System.out.println("action method in Client class"); 
+    }
+    
     public int getClientNum() {
         if (this instanceof Client)
             return clientNum;

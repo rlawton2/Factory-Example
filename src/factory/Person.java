@@ -35,6 +35,9 @@ public class Person {
     public String getType() {
         return this.getClass().getSimpleName();
     }
+    public void action() {
+        
+    }
     @Override
     public String toString() {
         return getType() + ": " + FName + " " + LName;
