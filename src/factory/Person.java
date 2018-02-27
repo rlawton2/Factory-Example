@@ -35,6 +35,7 @@ public class Person {
     public String getType() {
         return this.getClass().getSimpleName();
     }
+    // action method to be overriden by children
     public void action() {
         
     }
