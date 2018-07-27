@@ -13,6 +13,7 @@ public class Client extends Person{
     static int numTracker = 1000;     // value just for reference purposes
     int clientNum;
     
+    // Static count added in constructor
     public Client(){
         clientNum = numTracker;
         numTracker++;
@@ -23,6 +24,7 @@ public class Client extends Person{
         System.out.println("action method in Client class"); 
     }
     
+    // returns the clientNum value
     public int getClientNum() {
         if (this instanceof Client)
             return clientNum;
