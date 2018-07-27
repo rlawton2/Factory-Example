@@ -1,5 +1,5 @@
 build.xml
 manifest.mf
-/test/
-/nbproject/
-/build/
+test/
+nbproject/
+build/
